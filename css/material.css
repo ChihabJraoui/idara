@@ -1,0 +1,254 @@
+.material-icons
+{
+    vertical-align: middle;
+}
+
+/* sizing */
+.material-icons.md-14 { font-size: 14px; }
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* dark icons */
+.material-icons.md-dark
+{
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.material-icons.md-dark.md-inactive
+{
+    color: rgba(0, 0, 0, 0.26);
+}
+
+/* light icons */
+.material-icons.md-light
+{
+    color: rgba(255, 255, 255, 1);
+}
+
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+
+
+/*----------- Tool Bar -------------*/
+.toolbar
+{
+    position: relative;
+    height: 50px;
+    max-height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 3px 3px 0 0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+.toolbar.extanded
+{
+    margin-bottom: 35px;
+    height: 80px;
+    max-height: 80px;
+}
+
+/* title */
+.toolbar-title
+{
+    float: right;
+    padding: 5px;
+}
+.toolbar-title h1
+{
+    display: inline-block;
+    color: #eee;
+    margin-right: 10px;
+    font-family: "kufi", sans-serif;
+    font-size: 18px;
+}
+
+/* buttons */
+.toolbar-buttons
+{
+    float: left;
+    display: table;
+    padding: 5px;
+}
+.toolbar-buttons a
+{
+    display: table-cell;
+    color: #eee;
+    padding: 8px;
+}
+.toolbar-buttons a > i
+{
+    font-size: 24px;
+}
+
+/* Floating Action Button */
+.toolbar .action-button
+{
+    position: absolute;
+    display: inline-block;
+    bottom: -26px;
+    left: 100px;
+    padding: 14px;
+    border-radius: 50%;
+    background-color: #00BCD4;
+    color: #FFF;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+/*
+ *  Floating Action Button
+ */
+
+.action-button
+{
+    position: fixed;
+    z-index: 100;
+    bottom: 30px;
+    left: 30px;
+}
+.action-button > a
+{
+    display: inline-block;
+    padding: 16px;
+    border-radius: 50%;
+
+    background-color: #448AFF;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+.action-button > a > i
+{
+    display: block;
+    font-size: 24px;
+
+    color: #EEE;
+}
+
+
+
+
+/*
+ *  LIST VIEW
+ */
+
+.list-view
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    background-color: #fff;
+}
+
+.list-view > li
+{
+    display: block;
+    padding: 5px 20px;
+    border-bottom: 1px solid #ddd;
+}
+.list-view > li:last-child
+{
+    border-bottom: none;
+}
+
+
+
+
+/*
+ *  Data Table
+ */
+
+/* container */
+.data-table
+{
+
+    margin-bottom: 15px;
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+/* title */
+.data-table .title
+{
+    color: #448AFF;
+    padding: 15px;
+    border: none;
+    font-family: "Kufi", 'tahoma', sans-serif;
+    font-size: 16px;
+}
+/* table */
+.data-table table
+{
+    width: 100%;
+}
+
+/* tr */
+.data-table table > thead > tr,
+.data-table table > tbody > tr
+{
+    border-top: 1px solid #ddd;
+}
+
+/* th */
+.data-table table > thead > tr > th,
+.data-table table > tbody > tr > th
+{
+    color: #666;
+    padding: 12px;
+    font-size: 12px;
+}
+/* td */
+.data-table table > thead > tr > td,
+.data-table table > tbody > tr > td
+{
+    padding: 10px;
+}
+
+
+
+
+/*
+ *  CHIPS
+ */
+
+.chip
+{
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+    padding-right: 32px;
+    border-radius: 20px;
+
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    background-color: #f8f8f8;
+}
+
+.chip-object
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.chip-object img
+{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+}
+
+.chip-body
+{
+    padding: 8px 8px 8px 12px;
+}
+
+
+
+/*----------- Cards ----------*/
+.card {
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,57 @@
+.dark-primary-bg        { background: #455A64; }
+.default-primary-bg     { background: #607D8B; }
+.light-primary-bg       { background: #CFD8DC; }
+
+.text-primary-color     { color: #FFFFFF; }
+
+.accent-color           { color: #009688; }
+.accent-bg              { background: #009688; }
+
+.primary-text-color     { color: #212121; }
+.secondary-text-color   { color: #727272; }
+.divider-color          { border-color: #B6B6B6; }
+
+
+
+/*
+ *  Login
+ */
+.login-box .login-footer
+{
+    background-color: #455A64;
+}
+
+
+
+
+/*
+ *  Wrapper
+ */
+
+.wrapper-default > .wrapper-heading
+{
+    background-color: #f4f4f4;
+}
+
+
+/*------------- Statistics ----------------*/
+.panel-stats-white {
+    background-color: #eeeeee;
+    border: 1px solid #dddddd;
+}
+.panel-stats-red {
+    background-color: #EF5350;
+    border: 1px solid #D32F2F;
+}
+.panel-stats-green {
+    background-color: #66BB6A;
+    border: 1px solid #388E3C;
+}
+.panel-stats-purple {
+    background-color: #7E57C2;
+    border: 1px solid #512DA8;
+}
+.panel-stats-blue {
+    background-color: #26C6DA;
+    border: 1px solid #0097A7;
+}

@@ -1,0 +1,288 @@
+/*---------- TABLE -------------*/
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th {
+    font-size: 12px;
+    font-weight: bold;
+}
+.table > thead > tr > td,
+.table > thead > tr > th,
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th {
+    border-top: 1px solid #ddd;
+}
+.table {
+    margin-bottom: 0;
+}
+
+.table-top-bordered > tbody > tr {
+    border-top: 1px solid #DDDDDD;
+}
+.table-top-bordered > tbody > tr:last-child {
+    border-bottom: 1px solid #DDDDDD;
+}
+
+/* Align th to the left */
+.th-left > tbody > tr > th,
+.th-left > thead > tr > th {
+    text-align: left;
+}
+
+/*------------ BUTTON -------------*/
+.btn {
+    outline-style: none;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    font-family: "kufi", sans-serif;
+}.btn-success {
+    background: #4CAF50;
+    border-bottom: 3px solid #388E3C;
+ }
+.btn-primary {
+    background: #5C6BC0; /* 400 */
+    border-bottom: 3px solid #303F9F; /* 700 */
+}
+.btn-primary:hover {
+    background: #3F51B5; /* 500 */
+}
+.btn-default {
+    background: #eee;
+    border-bottom: 3px solid #ddd;
+}
+.btn-danger {
+    background: #EF5350; /* 400 */
+    border-bottom: 3px solid #D32F2F; /* 700 */
+}
+.btn-danger:hover {
+    background: #F44336; /* 500 */
+}
+
+
+/*------- Jumbotron ---------*/
+.jumbotron {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    margin: 10px auto;
+}
+
+/*------- ALERT ----------*/
+.alert {
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border: none;
+    color: #555;
+    background: #FFF;
+}
+.alert-danger {
+    border-right: 5px solid #C62828;
+}
+.alert-default {
+    border-right: 5px solid #757575;
+}
+.alert-warning {
+    border-right: 5px solid #FFC107;
+    color: #FFC107;
+}
+
+/*-------- Header Input Group --------*/
+.input-group .form-control {
+    border-radius: 0;
+}
+.input-group-btn .btn {
+    border-radius: 0;
+}
+
+/*------- DropDowns ----------*/
+.dropdown {
+    direction: rtl;
+}
+.dropdown-menu {
+    direction: rtl;
+    margin-top: 0;
+    padding: 0;
+    border-radius: 0;
+}
+.dropdown-menu > li {
+    border-radius: 0;
+    border-bottom: 1px solid #ddd;
+}
+.dropdown-menu > li:last-child {
+    border-bottom: none;
+}
+.dropdown-menu > li > a {
+    padding: 6px 20px;
+}
+
+/* dropUP with arrow */
+.dropup.arrow .dropdown-menu {
+    margin-bottom: 10px;
+}
+.dropup.arrow .dropdown-menu:after {
+    position: absolute;
+    content: " ";
+    top: 100%;
+    right: 1px;
+    height: 0;
+    width: 0;
+    border: 8px solid transparent;
+    border-top-color: #fff;
+}
+.dropup.arrow .dropdown-menu:before {
+    position: absolute;
+    content: " ";
+    top: 100%;
+    right: 0;
+    height: 0;
+    width: 0;
+    border: 9px solid transparent;
+    border-top-color: #aaa;
+}
+
+
+/*------- Texts -------*/
+.text-success {
+    color: #00d21e;
+}
+.text-danger {
+    color: #c43636;
+}
+
+
+
+/*--------- Form Control ----------*/
+.form-control {
+    border-radius: 0;
+}
+input.inline-input {
+    display: inline-block;
+}
+input[type=text].form-control-error {
+    border-color: red;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(233,102,102,0.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(233,102,102,0.6);
+}
+
+/*--------- Progress Bar --------*/
+.progress {
+    margin: 5px;
+}
+
+/*--------- Navbar ------------*/
+.navbar-fixed-top {
+    z-index: 10;
+}
+.navbar-default {
+    background: white;
+    box-shadow: 0 2px 4px #999;
+    border: hidden;
+    border-radius: 0;
+}
+
+/* Glyphicons */
+.glyphicon.md-18    { font-size: 18px; }
+.glyphicon.md-24    { font-size: 24px; }
+.glyphicon.md-36    { font-size: 26px; }
+.glyphicon.md-48    { font-size: 48px; }
+
+
+/*----------- Pagination ------------*/
+.pagination {
+    margin: 20px 0 5px 0;
+}
+
+
+/*------------ Panels -------------*/
+.panel {
+    margin-bottom: 5px;
+}
+.panel-body {
+    padding: 10px;
+}
+
+/*------------ toolTip --------------*/
+.tooltip {
+    font-family: "tahoma", sans-serif;
+}
+
+
+/*----------- Label --------------*/
+.label {
+    border-radius: 0;
+}
+
+
+/*------------- Hidden -------------*/
+.hide {
+    display: none;
+}
+
+
+/*----------- Form Group -------------*/
+.form-group label {
+    font-size: 12px;
+}
+
+
+/*----------- Media -------------*/
+.media
+{
+    display: table;
+    width: 100%;
+    text-align: right;
+    margin-top: 0;
+}
+.media-object
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+.media-object > img
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+.media-body
+{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    padding: 10px;
+}
+.media-option
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+/*------------ Checkbox / Radio -----------*/
+.radio input[type=radio], .radio-inline input[type=radio],
+.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox] {
+    margin-right: 5px;
+    margin-left: 5px;
+    position: relative;
+}
+.radio, .checkbox {
+
+}
+.radio label, .checkbox label {
+    padding-left: 0;
+    padding-right: 0;
+}
+/* inline */
+.radio-inline, .checkbox-inline {
+    padding-left: 0;
+}

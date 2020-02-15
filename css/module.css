@@ -1,0 +1,229 @@
+/*
+ *  HEADER
+ */
+
+/* Logo */
+.header-logo
+{
+    float: right;
+}
+.header-logo > a
+{
+    display: block;
+    padding: 0 15px;
+    line-height: 60px;
+
+    font-size: 28px;
+    font-family: 'Rehan', sans-serif;
+
+    color: #444;
+}
+
+/* Header Nav */
+.header-nav
+{
+    float: left;
+    display: table;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+}
+.header-nav > li
+{
+    display: table-cell;
+    vertical-align: middle;
+    border-left: 1px solid #607D8B;
+}
+.header-nav > li:last-child
+{
+    border-left: none;
+}
+.header-nav > li > a
+{
+    display: block;
+    padding: 0 15px;
+    line-height: 60px;
+
+    color: #444;
+}
+.header-nav > li > a:hover
+{
+    background-color: #DDD;
+}
+
+
+
+
+/*
+ *  SideBar Menu
+ */
+
+.sidemenu
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    border-top: 1px solid #90A4AE;
+}
+
+.sidemenu > li
+{
+    position: relative;
+}
+.sidemenu > li:hover
+{
+    background-color: #546E7A;
+    color: #FFF;
+}
+
+.sidemenu > li > a
+{
+    display: block;
+    padding: 10px 20px 10px 10px;
+
+    font-size: 13px;
+    font-weight: bold;
+
+    color: #EEE;
+
+    transition: background 0.3s;
+}
+
+/* Profile */
+.sidemenu-profile
+{
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+/*-------------- Image Thumbnail --------------*/
+.img-thumbnail-circle
+{
+    border-radius: 50%;
+    border: 2px solid #eee;
+    padding: 2px;
+}
+
+
+
+
+/*
+ *  STATISTICS
+ */
+
+.widget.stats
+{
+    padding: 10px;
+    text-align: center;
+    border-radius: 3px;
+    margin-bottom: 15px;
+
+    background-color: #FFF;
+}
+.widget.stats .number
+{
+    font-size: 28px;
+    font-family: "Poiret One", cursive;
+}
+.widget.stats .icon
+{
+    margin-left: 20px;
+}
+
+/* convas */
+.canvas-holder
+{
+    text-align: center;
+}
+.canvas-holder > canvas
+{
+    max-width: 95%;
+}
+
+
+
+
+/*
+ * Login
+ */
+
+.login-box
+{
+    background-color: #fafafa;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+}
+.login-box .login-heading
+{
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+.login-box .login-heading span
+{
+    color: #444;
+    font-family: "Kufi", sans-serif;
+    font-size: 22px;
+}
+.login-box .login-body
+{
+    padding: 10px;
+    background-color: #FFF;
+}
+.login-box .login-footer
+{
+    padding: 10px;
+    overflow: auto;
+    color: #EEE;
+}
+
+/* forget password */
+.forget-password
+{
+    display: inline-block;
+    margin-top: 10px;
+    font: normal normal 12px tahoma;
+}
+
+.btn-login
+{
+    box-shadow: none;
+    font-family: "Kufi", sans-serif;
+}
+.save-login
+{
+    font-size: 12px;
+    color: #EEE;
+}
+
+
+
+
+/*
+ * Headings
+ */
+
+.title
+{
+    border-bottom: 1px solid #222;
+}
+
+
+
+
+/*
+ *     Photo Circle
+ */
+
+.photo-circle
+{
+    padding: 10px;
+}
+.photo-circle > img
+{
+    border-radius: 50%;
+    padding: 3px;
+    border: 2px solid #FFF;
+}

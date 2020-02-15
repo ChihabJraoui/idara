@@ -1,0 +1,21 @@
+/*
+ *  SIDEBAR Menu
+ */
+
+/* Active State */
+.sidemenu > li.active
+{
+    background-color: #009688 !important;
+}
+.sidemenu > li.active:after
+{
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 0;
+
+    border: 10px solid transparent;
+    border-left-color: #F0F0F0;
+
+    transform: translateY(-50%);
+}

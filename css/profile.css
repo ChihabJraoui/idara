@@ -1,0 +1,55 @@
+/*####### Profile ########*/
+.header-profile
+{
+	background-color: #f6f6f6;
+	width: 100%;
+	overflow: auto;
+	padding: 20px;
+	position: relative;
+}
+
+/* Navigation Tabs */
+.nav-tabs-profile
+{
+	background-color: white;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #ccc;
+}
+.nav-tabs-profile > li
+{
+	display: inline-block;
+}
+.nav-tabs-profile > li > a
+{
+	display: block;
+	font: bold normal 12px "tahoma";
+}
+
+.nav-tabs-profile > .active
+{
+	border-bottom: 2px solid DodgerBlue;
+}
+
+/* Profile Picture */
+.profile-picture
+{
+	position: relative;
+	overflow: hidden;
+	margin-left: 20px;
+}
+.profile-picture > img
+{
+	border-radius: 50%;
+	height: 128px;
+	width: 128px;
+}
+.profile-picture-edit
+{
+	background: #444;
+	position: absolute;
+	bottom: 10px;
+	left: 0;
+	width: 100%;
+	padding: 10px;
+	color: white;
+}

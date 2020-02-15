@@ -1,0 +1,79 @@
+.modal-wrapper
+{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: auto;
+    opacity: 1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.modal-table
+{
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.modal-cell
+{
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+/* Modal Box */
+.modal-box
+{
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.6);
+    background-color: #fff;
+    overflow: hidden;
+}
+.modal-box-heading
+{
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.modal-box-body
+{
+    padding: 15px;
+}
+.modal-box-footer
+{
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+
+.modal-box-heading .title
+{
+    font-size: 16px;
+    font-family: 'Kufi', sans-serif;
+}
+
+
+/* Button Close */
+.modal-box-heading .left-close
+{
+    float: left;
+}
+.modal-box-heading .right-close
+{
+    float: right;
+}
+
+
+/* Confirm & Cancel Button */
+.modal-box-footer .btn
+{
+    margin-left: 10px;
+}

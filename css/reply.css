@@ -1,0 +1,35 @@
+.reply-img
+{
+	float: right;
+	margin-left: 10px;
+}
+.reply-img img
+{
+	height: 60px;
+	width: 60px;
+	border: 3px solid white;
+	box-shadow: 0 0 2px #ccc;
+}
+.reply-name
+{
+	font: bold normal 13px 'tahoma';
+}
+.reply-author
+{
+	text-align: right;
+	padding: 5px;
+	color: #444;
+	display: block;
+	font: normal normal 12px 'tahoma';
+}
+.reply-text
+{
+	display: block;
+	text-align: right;
+	padding: 10px;
+	font: normal normal 14px 'tahoma';
+}
+.reply-date
+{
+	font: normal normal 12px "tahoma";
+}
